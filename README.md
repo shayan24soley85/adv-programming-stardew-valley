@@ -1,33 +1,63 @@
-# StardewValley
+# Stardew Valley Clone
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+A 2D farming simulator inspired by *Stardew Valley*, built in Java with [libGDX](https://libgdx.com/) as a team project for the Advanced Programming course.
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+![Gameplay](docs/screenshots/gameplay.png)
 
-## Platforms
+## Features
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+- **Accounts & profiles:** register/login, avatar selection, and editable username, nickname, email, and password
+- **Multiplayer:** up to 3 players per game, with a choice of map
+- **Farming:** plant, water, and harvest crops and trees; forage for wild items
+- **Tools & skills:** watering can, scythe, pickaxe, axe, and more, with upgrades and skill levels
+- **Fishing & animals:** catch fish, build barns and coops, raise farm animals
+- **Crafting & cooking:** recipes and artisan machines (keg, loom, bee house, and more)
+- **Economy:** shops such as JojaMart and player-to-player trading
+- **Social:** NPCs (e.g. Robin) with quests and rewards, gifts, friendship levels, and marriage
+- **World simulation:** day/night cycle, seasons, weather, and an energy system
 
-## Gradle
+## Screenshots
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+| | |
+|---|---|
+| ![Title screen](docs/screenshots/title-screen.png) | ![Main menu](docs/screenshots/main-menu.png) |
+| ![Profile](docs/screenshots/profile.png) | ![New game](docs/screenshots/new-game.png) |
+| ![Store](docs/screenshots/store.png) | ![NPC quests](docs/screenshots/npc-quests.png) |
+| ![Social menu](docs/screenshots/social.png) | ![Inventory](docs/screenshots/inventory.png) |
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+## Tech Stack
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+Java · libGDX · Gradle (LWJGL3 desktop backend)
+
+## Getting Started
+
+**Requirements:** JDK [version]
+
+```bash
+git clone https://github.com/shayan24soley85/adv-programming-stardew-valley.git
+cd adv-programming-stardew-valley
+./gradlew lwjgl3:run
+```
+
+On Windows, use `gradlew.bat lwjgl3:run`.
+
+### Useful Gradle tasks
+
+- `lwjgl3:run`: starts the game
+- `lwjgl3:jar`: builds a runnable JAR in `lwjgl3/build/libs`
+- `build`: builds sources and archives of every module
+- `clean`: removes `build` folders
+- `test`: runs unit tests
+
+## Project Structure
+
+- `core/`: main module with the game logic shared by all platforms
+- `lwjgl3/`: desktop launcher (LWJGL3)
+- `assets/`: textures, fonts, and other resources
+
+The project was generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+
+## Team
+
+Developed by Amirshayan Soleimani Nia, Sina Aghaee Hakak, and Arshia Arab Behjat.
+My contribution: [what you built, e.g. "farming, tools, and the store system"].
