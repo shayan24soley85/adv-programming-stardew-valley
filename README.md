@@ -2,7 +2,7 @@
 
 A 2D farming simulator inspired by *Stardew Valley*, built in Java with [libGDX](https://libgdx.com/) as a team project for the Advanced Programming course.
 
-![Gameplay](docs/screenshots/gameplay.png)
+![Gameplay](docs/Screenshot 2026-11-06 152329.png)
 
 ## Features
 
@@ -24,7 +24,7 @@ A 2D farming simulator inspired by *Stardew Valley*, built in Java with [libGDX]
 | ![Profile](docs/Screenshot 2026-11-06 152103.png) | ![New game](docs/Screenshot 2026-11-06 152227.png) |
 | ![Store](docs/Screenshot 2026-11-06 152408.png) | ![NPC quests](docs/Screenshot 2026-11-06 152329.png) |
 | ![Social menu](docs/Screenshot 2026-11-06 152419.png) | ![Inventory](docs/Screenshot 2026-11-06 152445.png) |
-| ![tools menu](docs/Screenshot 2026-11-06 152439.png) | ![map](docs/Screenshot 2026-11-06 152329.png) |
+| ![tools menu](docs/Screenshot 2026-11-06 152439.png) |
 
 ## Tech Stack
 
