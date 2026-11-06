@@ -20,10 +20,11 @@ A 2D farming simulator inspired by *Stardew Valley*, built in Java with [libGDX]
 
 | | |
 |---|---|
-| ![Title screen](docs/screenshots/title-screen.png) | ![Main menu](docs/screenshots/main-menu.png) |
-| ![Profile](docs/screenshots/profile.png) | ![New game](docs/screenshots/new-game.png) |
-| ![Store](docs/screenshots/store.png) | ![NPC quests](docs/screenshots/npc-quests.png) |
-| ![Social menu](docs/screenshots/social.png) | ![Inventory](docs/screenshots/inventory.png) |
+| ![Title screen](docs/Screenshot 2026-11-06 152001.png) | ![Main menu](docs/Screenshot 2026-11-06 152056.png) |
+| ![Profile](docs/Screenshot 2026-11-06 152103.png) | ![New game](docs/Screenshot 2026-11-06 152227.png) |
+| ![Store](docs/Screenshot 2026-11-06 152408.png) | ![NPC quests](docs/Screenshot 2026-11-06 152329.png) |
+| ![Social menu](docs/Screenshot 2026-11-06 152419.png) | ![Inventory](docs/Screenshot 2026-11-06 152445.png) |
+| ![tools menu](docs/Screenshot 2026-11-06 152439.png) | ![map](docs/Screenshot 2026-11-06 152329.png) |
 
 ## Tech Stack
 
