@@ -34,7 +34,31 @@ Java · libGDX · Gradle (LWJGL3 desktop backend)
 
 **Requirements:** JDK 23
 
-```bash
+Run the following commands in your terminal:
+
 git clone [https://github.com/shayan24soley85/adv-programming-stardew-valley.git](https://github.com/shayan24soley85/adv-programming-stardew-valley.git)
 cd adv-programming-stardew-valley
 ./gradlew lwjgl3:run
+
+On Windows, use `gradlew.bat lwjgl3:run`.
+
+### Useful Gradle tasks
+
+- `lwjgl3:run`: starts the game
+- `lwjgl3:jar`: builds a runnable JAR in `lwjgl3/build/libs`
+- `build`: builds sources and archives of every module
+- `clean`: removes `build` folders
+- `test`: runs unit tests
+
+## Project Structure
+
+- `core/`: main module with the game logic shared by all platforms
+- `lwjgl3/`: desktop launcher (LWJGL3)
+- `assets/`: textures, fonts, and other resources
+
+The project was generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+
+## Team
+
+Developed by Amirshayan Soleimani Nia, Sina Aghaee Hakak, and Arshia Arab Behjat.
+**My contribution:** Lead graphics developer; migrated the game from a terminal-based interface to a fully graphical 2D experience using libGDX, including UI rendering, sprites, and visual systems.
